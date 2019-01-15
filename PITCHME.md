@@ -39,9 +39,17 @@
 
 ---
 
+## rxrx
+
+```
+$ cpanm Regexp::Debugger
+```
+
+---
+
 ## Greed
 
-quantifiers (* + ? { }) match as long a substring as possible
+quantifiers (`*` `+` `?` `{ }`) match as long a substring as possible
 
 ```plain
 /".*"/
