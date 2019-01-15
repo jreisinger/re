@@ -12,7 +12,7 @@
 
 quantifiers (* + ? { }) match as long a substring as possible
 
-```plain
+```perl
 /".*"/
 'He said "hi", she said "hello"'
 ```
