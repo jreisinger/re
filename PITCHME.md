@@ -8,6 +8,8 @@
 * regexes are actually code (executed on a VM)
 * each char in regex is an instruction
 
+---
+
 # Greed
 
 quantifiers (* + ? { }) match as long a substring as possible
