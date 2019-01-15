@@ -1,23 +1,35 @@
-## Intro
+## Regular expressions
 
-* Traditional NFA (non-deterministic finite automaton)
-* Used also by Java - https://docs.oracle.com/javase/10/docs/api/java/util/regex/Pattern.html#jcc
+* re
+* regex
+* regexp
+
+---
+
+## What are they
+
+* mini-language (code)
+* each char in regex is an instruction
+
+---
+
+## Pseudocode of /abc/
+
+![](pseudocode.png)
+
+---
+
+## Tricky parts
 
 * syntax is not that tricky
 * semantics is
 
 ---
 
-## What are regular expressions
+## Implementation
 
-* regexes are actually code (executed on a VM)
-* each char in regex is an instruction
-
----
-
-## Pseudocode
-
-![](pseudocode.png)
+* Traditional NFA (non-deterministic finite automaton)
+* Used also by Java's [Pattern](https://docs.oracle.com/javase/10/docs/api/java/util/regex/Pattern.html#jcc)
 
 ---
 
@@ -45,7 +57,7 @@ quantifiers (* + ? { }) match as long a substring as possible
 
 leftmost match wins
 
-```
+```plain
 /o*/
 'good food'
 
@@ -59,7 +71,7 @@ leftmost match wins
 
 the entire regex must match (not just part of it)
 
-```
+```plain
 /".*"/
 'He said "hi", she said hello'
 
