@@ -12,7 +12,7 @@
 
 quantifiers (* + ? { }) match as long a substring as possible
 
-```no
+```plain
 /".*"/
 'He said "hi", she said "hello"'
 ```
@@ -21,7 +21,7 @@ quantifiers (* + ? { }) match as long a substring as possible
 
 # Non-greedy
 
-```
+```plain
 /".*?"/
 'He said "hi", she said "hello"'
 ```
