@@ -1,4 +1,4 @@
-# Intro
+## Intro
 
 * Traditional NFA (non-deterministic finite automaton)
 * Used also by Java - https://docs.oracle.com/javase/10/docs/api/java/util/regex/Pattern.html#jcc
@@ -8,20 +8,20 @@
 
 ---
 
-# What are regular expressions
+## What are regular expressions
 
 * regexes are actually code (executed on a VM)
 * each char in regex is an instruction
 
 ---
 
-# Pseudocode of /abc/
+## Pseudocode
 
 ![](pseudocode.png)
 
 ---
 
-# Greed
+## Greed
 
 quantifiers (* + ? { }) match as long a substring as possible
 
@@ -32,7 +32,7 @@ quantifiers (* + ? { }) match as long a substring as possible
 
 ---
 
-# Non-greedy
+## Non-greedy
 
 ```plain
 /".*?"/
@@ -41,7 +41,7 @@ quantifiers (* + ? { }) match as long a substring as possible
 
 ---
 
-# Eagerness
+## Eagerness
 
 leftmost match wins
 
@@ -55,7 +55,7 @@ leftmost match wins
 
 ---
 
-# Backtracking
+## Backtracking
 
 the entire regex must match (not just part of it)
 
@@ -69,6 +69,6 @@ the entire regex must match (not just part of it)
 
 ---
 
-# More
+## More
 
 * https://learning.oreilly.com/videos/understanding-regular-expressions/
