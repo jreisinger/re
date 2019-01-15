@@ -5,8 +5,19 @@
 
 * syntax is not that tricky
 * semantics is
+
+---
+
+# What are regular expressions
+
 * regexes are actually code (executed on a VM)
 * each char in regex is an instruction
+
+---
+
+# Pseudocode of /abc/
+
+![](pseudocode.png)
 
 ---
 
