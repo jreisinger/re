@@ -13,7 +13,13 @@
 
 ---
 
-## Pseudocode of /abc/
+## Transition graph
+
+![](transition_graph.png)
+
+---
+
+## Pseudocode
 
 ![](pseudocode.png)
 
@@ -83,4 +89,4 @@ the entire regex must match (not just part of it)
 
 ## More
 
-* https://learning.oreilly.com/videos/understanding-regular-expressions/
+* https://learning.oreilly.com/videos/understanding-regular-expressions/9781491996300
