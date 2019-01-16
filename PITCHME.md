@@ -39,11 +39,15 @@
 
 ---
 
-## rxrx
+## Tools
+
+rxrx
 
 ```
 $ cpanm Regexp::Debugger
 ```
+
+[regex101.com](https://regex101.com)
 
 ---
 
