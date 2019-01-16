@@ -45,7 +45,7 @@
 
 ```plain
 He said "hi", she said "hello"
-/[".*"]/
+/".*"/
 /".*?"/
 /"[^"]*"/
 ```
