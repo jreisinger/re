@@ -25,7 +25,7 @@
 
 ---
 
-## Most common implementation
+## Target implementation
 
 * Traditional NFA (non-deterministic finite automaton)
 * Used also by Java's [Pattern](https://docs.oracle.com/javase/10/docs/api/java/util/regex/Pattern.html#jcc)
@@ -46,8 +46,6 @@
 ```plain
 He said "hi", she said "hello"
 /".*"/
-/".*?"/
-/"[^"]*"/
 ```
 
 ---
@@ -73,6 +71,24 @@ longest
 ```plain
 ~~~~'XXXX'~~~~
 /'.*'/
+```
+
+---
+
+## Non-greedy matching
+
+```plain
+He said "hi", she said "hello"
+/".*?"/
+```
+
+---
+
+## .* is not your friend
+
+```plain
+~~~~'XXXX'~~~~
+/'[^']'/
 ```
 
 ---
