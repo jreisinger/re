@@ -43,10 +43,12 @@
 
 quantifiers (`*` `+` `?` `{ }`) match as long a substring as possible
 
-* He said "hi", she said "hello"
-* [".*"](https://regex101.com/r/zWwBUP/1)
-* [".*?"](https://regex101.com/r/zWwBUP/2)
-* ["[^"]*"](https://regex101.com/r/zWwBUP/3)
+```
+He said "hi", she said "hello"
+/[".*"]/
+/".*?"/
+/"[^"]*"/
+```
 
 ---
 
@@ -65,6 +67,9 @@ leftmost match wins
 ## Backtracking
 
 the entire regex must match (not just part of it)
+
+* ~~~~'XXXX'~~~~
+* ['.*'](
 
 ```plain
 /".*"/
