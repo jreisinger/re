@@ -56,11 +56,13 @@ He said "hi", she said "hello"
 
 leftmost match wins
 
-* good food
-* [o*](https://regex101.com/r/gkqfcO/1)
+```plain
+good food
+/o*/
 
-* longest
-* [long|longer|longest](https://regex101.com/r/l0UPUT/1)
+longest
+/long|longer|longest/
+```
 
 ---
 
@@ -68,19 +70,13 @@ leftmost match wins
 
 the entire regex must match (not just part of it)
 
-* ~~~~'XXXX'~~~~
-* ['.*'](
-
 ```plain
-/".*"/
-'He said "hi", she said hello'
-
-/"[^"]*"/
-'He said "hi", she said hello'
+~~~~'XXXX'~~~~
+/'.*'/
 ```
 
 ---
 
 ## More
 
-* https://learning.oreilly.com/videos/understanding-regular-expressions/9781491996300
+* [Understanding Regular Expressions](https://learning.oreilly.com/videos/understanding-regular-expressions/9781491996300)
