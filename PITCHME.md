@@ -41,13 +41,8 @@
 
 ## Tools
 
-rxrx
-
-```
-$ cpanm Regexp::Debugger
-```
-
-[regex101.com](https://regex101.com)
+* [Regexp::Debugger](https://metacpan.org/pod/Regexp::Debugger)
+* [regex101.com](https://regex101.com)
 
 ---
 
