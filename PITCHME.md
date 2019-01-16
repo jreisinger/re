@@ -43,10 +43,10 @@
 
 quantifiers (`*` `+` `?` `{ }`) match as long a substring as possible
 
-* 'He said "hi", she said "hello"'
-* [/".*"/](https://regex101.com/r/fMMSFn/2)
-* [/".*?"/](https://regex101.com/r/fMMSFn/3)
-* [/"[^"]*"/](https://regex101.com/r/fMMSFn/4)
+* He said "hi", she said "hello"
+* [".*"](https://regex101.com/r/fMMSFn/2)
+* [".*?"](https://regex101.com/r/fMMSFn/3)
+* ["[^"]*"](https://regex101.com/r/fMMSFn/4)
 
 ---
 
@@ -55,10 +55,10 @@ quantifiers (`*` `+` `?` `{ }`) match as long a substring as possible
 leftmost match wins
 
 * good food
-* [/o*/](https://regex101.com/r/gkqfcO/1)
+* [o*](https://regex101.com/r/gkqfcO/1)
 
 * longest
-* [long/longer/longest](https://regex101.com/r/l0UPUT/1)
+* [long|longer|longest](https://regex101.com/r/l0UPUT/1)
 
 ---
 
