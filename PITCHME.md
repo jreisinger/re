@@ -50,26 +50,15 @@ quantifiers (`*` `+` `?` `{ }`) match as long a substring as possible
 
 ---
 
-## Non-greedy
-
-```plain
-/".*?"/
-'He said "hi", she said "hello"'
-```
-
----
-
 ## Eagerness
 
 leftmost match wins
 
-```plain
-/o*/
-'good food'
+* good food
+* [/o*/](https://regex101.com/r/gkqfcO/1)
 
-/long|longer|longest/
-'longest'
-```
+* longest
+* [long/longer/longest](https://regex101.com/r/l0UPUT/1)
 
 ---
 
