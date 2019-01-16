@@ -43,7 +43,7 @@
 
 quantifiers (`*` `+` `?` `{ }`) match as long a substring as possible
 
-```
+```plain
 He said "hi", she said "hello"
 /[".*"]/
 /".*?"/
