@@ -43,9 +43,7 @@
 
 quantifiers (`*` `+` `?` `{ }`) match as long a substring as possible
 
-```plain
-'He said "hi", she said "hello"'
-```
+* 'He said "hi", she said "hello"'
 * [/".*"/](https://regex101.com/r/fMMSFn/2)
 * [/".*?"/](https://regex101.com/r/fMMSFn/3)
 * [/"[^"]*"/](https://regex101.com/r/fMMSFn/4)
