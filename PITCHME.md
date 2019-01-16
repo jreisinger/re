@@ -54,7 +54,7 @@ He said "hi", she said "hello"
 
 ## Eagerness
 
-leftmost match wins
+* leftmost match wins
 
 ```plain
 good food
@@ -68,7 +68,7 @@ longest
 
 ## Backtracking
 
-the entire regex must match (not just part of it)
+* the entire regex must match (not just part of it)
 
 ```plain
 ~~~~'XXXX'~~~~
