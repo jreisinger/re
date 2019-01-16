@@ -95,4 +95,5 @@ He said "hi", she said "hello"
 
 ## More
 
-* [Understanding Regular Expressions](https://learning.oreilly.com/videos/understanding-regular-expressions/9781491996300)
+* Damian Conway: [Understanding Regular Expressions](https://learning.oreilly.com/videos/understanding-regular-expressions/9781491996300)
+* Jeffrey Friedl: [Mastering Regular Expressions](https://www.safaribooksonline.com/library/view/mastering-regular-expressions/0596528124/)
