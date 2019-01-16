@@ -25,14 +25,7 @@
 
 ---
 
-## Tricky parts
-
-* syntax is not that tricky
-* semantics is
-
----
-
-## Implementation
+## Most common implementation
 
 * Traditional NFA (non-deterministic finite automaton)
 * Used also by Java's [Pattern](https://docs.oracle.com/javase/10/docs/api/java/util/regex/Pattern.html#jcc)
