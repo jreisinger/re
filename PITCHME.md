@@ -39,9 +39,30 @@
 
 ---
 
+## Precedence
+
+* `|` (alternation) has the lowest precedence
+
+```plain
+/^yes|maybe|no$/
+```
+
+---
+
+## Quantifiers match only one preceding thing
+
+`*` `+` `?` `{}`
+
+```plain
+blabla
+/bla{2,}/
+```
+
+---
+
 ## Greed
 
-* quantifiers (`*` `+` `?` `{ }`) match as long a substring as possible
+* quantifiers match as long a substring as possible
 
 ```plain
 He said "hi", she said "hello"
