@@ -1,8 +1,9 @@
 ## Regular expressions
 
 * re
-* regex
-* regexp
+* regexes
+* regexps
+* patterns
 
 ---
 
@@ -87,7 +88,8 @@ longest
 
 ## Backtracking
 
-* the entire regex must match (not just part of it)
+* engine tries all possibilities until it matches or fails
+* the entire regex must match not just part of it
 
 ```plain
 ~~~~'XXXX'~~~~
