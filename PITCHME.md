@@ -116,6 +116,15 @@ He said "hi", she said "hello"
 
 ---
 
+## Try to be more specific
+
+```plain
+www.google.com
+/\w+\.\w+$/
+```
+
+---
+
 ## More
 
 * Damian Conway: [Understanding Regular Expressions](https://learning.oreilly.com/videos/understanding-regular-expressions/9781491996300)
