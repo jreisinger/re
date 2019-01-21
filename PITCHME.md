@@ -7,6 +7,19 @@
 
 ---
 
+## Example
+
+```python
+import re
+if re.search(r'abc', '12ababc'): print("Matched!")
+```
+
+```perl
+print "Matched!\n" if '12ababc' =~ /abc/
+```
+
+---
+
 ## What are they
 
 * mini-language (code)
