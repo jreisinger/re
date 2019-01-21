@@ -22,7 +22,7 @@ print "Matched!\n" if '12ababc' =~ /abc/
 
 ## What are they
 
-* mini-language (code)
+* mini programming language
 * each char in regex is an instruction
 
 ---
@@ -41,7 +41,7 @@ print "Matched!\n" if '12ababc' =~ /abc/
 
 ## Target implementation
 
-* Traditional NFA (non-deterministic finite automaton)
+* NFA (non-deterministic finite automaton)
 * Used also by Java's [Pattern](https://docs.oracle.com/javase/10/docs/api/java/util/regex/Pattern.html#jcc)
 
 ---
