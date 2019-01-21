@@ -58,6 +58,7 @@ print "Matched!\n" if '12ababc' =~ /abc/
 * `|` (alternation) has the lowest precedence
 
 ```plain
+yesman
 /^yes|maybe|no$/
 ```
 
@@ -81,6 +82,15 @@ blabla
 ```plain
 He said "hi", she said "hello"
 /".*"/
+```
+
+---
+
+## Non-greedy matching
+
+```plain
+He said "hi", she said "hello"
+/".*?"/
 ```
 
 ---
@@ -114,8 +124,8 @@ longest
 ## Non-greedy matching
 
 ```plain
-He said "hi", she said "hello"
-/".*?"/
+~~~~'XXXXXXXXXXXX'~~~~
+/'.*?'/
 ```
 
 ---
