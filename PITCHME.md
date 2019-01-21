@@ -58,7 +58,7 @@ print "Matched!\n" if '12ababc' =~ /abc/
 * `|` (alternation) has the lowest precedence
 
 ```plain
-yesman
+'yesman'
 /^yes|maybe|no$/
 ```
 
@@ -69,7 +69,7 @@ yesman
 `*` `+` `?` `{}`
 
 ```plain
-blabla
+'blabla'
 /bla{2,}/
 ```
 
@@ -80,7 +80,7 @@ blabla
 * quantifiers match as long a substring as possible
 
 ```plain
-He said "hi", she said "hello"
+'He said "hi", she said "hello"'
 /".*"/
 ```
 
@@ -89,7 +89,7 @@ He said "hi", she said "hello"
 ## Non-greedy matching
 
 ```plain
-He said "hi", she said "hello"
+'He said "hi", she said "hello"'
 /".*?"/
 ```
 
@@ -100,10 +100,10 @@ He said "hi", she said "hello"
 * leftmost match wins
 
 ```plain
-good food
+'good food'
 /o*/
 
-longest
+'longest'
 /long|longer|longest/
 ```
 
@@ -115,7 +115,7 @@ longest
 * entire regex must match not just part of it
 
 ```plain
-~~~~'XXXX'~~~~
+"~~~~'XXXX'~~~~"
 /'.*'/
 ```
 
@@ -124,7 +124,7 @@ longest
 ## Non-greedy matching
 
 ```plain
-~~~~'XXXXXXXXXXXX'~~~~
+"~~~~'XXXXXXXXXXXX'~~~~"
 /'.*?'/
 ```
 
@@ -133,7 +133,7 @@ longest
 ## .* is not your friend
 
 ```plain
-~~~~'XXXX'~~~~
+"~~~~'XXXX'~~~~"
 /'[^']*'/
 ```
 
@@ -142,7 +142,7 @@ longest
 ## Try to be more specific
 
 ```plain
-www.google.com
+"www.google.com"
 /\w+\.\w+$/
 ```
 
